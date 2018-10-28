@@ -14,8 +14,8 @@ import (
 
 func init() {
 	_, file, _, _ := runtime.Caller(1)
-	apppath, _ := filepath.Abs(filepath.Dir(filepath.Join(file, ".." + string(filepath.Separator))))
-	beego.TestBeegoInit(apppath)
+	apppath, _ := filepath.Abs(filepath.Dir(file))
+	beego.TestBeegoInit(filepath.Join(apppath, ".." + string(filepath.Separator)))
 }
 
 
