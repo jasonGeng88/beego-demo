@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
 files:
-	- source: /
-	  destination: /webapps/myApp
+ - source: /
+   destination: /webapps/myApp
 hooks:
-	ApplicationStart:
-		- location: /webapps/myApp/run.sh
-		  timeout: 300
+ ApplicationStart:
+  - location: /webapps/myApp/run.sh
+    timeout: 300
