@@ -18,7 +18,6 @@ artifacts:
   - run.sh
   - beego-demo
   - appspec.yml
- base-directory:
-  - conf
-  - static
-  - views
+  - conf/*
+  - static/*
+  - views/*
