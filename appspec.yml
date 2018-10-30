@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 files:
  - source: /
-   destination: /webapps/myApp
+   destination: /webapps/myApp/beego-demo
 hooks:
  ApplicationStart:
-  - location: /webapps/myApp/run.sh
+  - location: run.sh
     timeout: 300
