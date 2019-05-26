@@ -1,0 +1,31 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "SNYvSg8+JidP8fpgY6LMHYR4XGg=",
+			"path": "github.com/jasonGeng88/beego-demo",
+			"revision": "990caaa6c49a91ad36df339745565c6ec698fe6b",
+			"revisionTime": "2019-05-26T15:58:33Z"
+		},
+		{
+			"checksumSHA1": "LSWXheEZF4TPsQpWpvrgek35L0k=",
+			"path": "github.com/jasonGeng88/beego-demo/controllers",
+			"revision": "990caaa6c49a91ad36df339745565c6ec698fe6b",
+			"revisionTime": "2019-05-26T15:58:33Z"
+		},
+		{
+			"checksumSHA1": "Ebtq4dGqi8zpg+FfVbSQ1OO2SL8=",
+			"path": "github.com/jasonGeng88/beego-demo/routers",
+			"revision": "990caaa6c49a91ad36df339745565c6ec698fe6b",
+			"revisionTime": "2019-05-26T15:58:33Z"
+		},
+		{
+			"checksumSHA1": "nEkmEcZJJfKb/ix5Ki1WE6uNb4A=",
+			"path": "github.com/jasonGeng88/beego-demo/tests",
+			"revision": "990caaa6c49a91ad36df339745565c6ec698fe6b",
+			"revisionTime": "2019-05-26T15:58:33Z"
+		}
+	],
+	"rootPath": "github.com/jasonGeng88/beego-demo"
+}
