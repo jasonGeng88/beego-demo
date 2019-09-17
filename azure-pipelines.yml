@@ -35,5 +35,12 @@ steps:
         dep ensure
     fi
     go build -v .
+    az artifacts universal publish \
+    --organization "https://dev.azure.com/372922638/" \
+    --feed "artifact-test" \
+    --name "my-package-name" \
+    --version "12.2.0" \
+    --description "My description" \
+    --path .
   workingDirectory: '$(modulePath)'
   displayName: 'Get dependencies, then build'
