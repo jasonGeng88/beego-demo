@@ -5,7 +5,7 @@ import (
 )
 
 type MainController struct {
-	beego.Controller2
+	beego.Controller22
 }
 
 func (c *MainController) Get() {
