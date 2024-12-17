@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jasonGeng88_beego_demo_1734414589305-push-trigger-input-set
+  identifier: Build_jasonGeng88_beego_demo_1734414589305pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jasonGeng88_beego_demo_1734414589305
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
